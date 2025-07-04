@@ -1,5 +1,22 @@
-Personal Web Ilah Meilan
-Deskripsi Proyek
-Website ini merupakan projek website artikel pribadi yang dibuat menggunakan PHP dan Tailwind CSS. Website ini berfungsi sebagai media untuk menampilkan berbagai artikel, galeri gambar, informasi kegiatan, serta menyediakan form kontak bagi pengunjung.
-Selain tampilan publik, website juga memiliki halaman admin untuk mengelola konten artikel dan data lainnya. Fitur dark mode, statistik pengunjung, dan form buku tamu juga ditambahkan untuk memberikan kesan modern dan interaktif pada pengguna.
-Website ini cocok digunakan sebagai portfolio pribadi,media berbagi tulisan, atau sarana pembelajaran pengembangan website dinamis.
+# 🌐 Personal Web
+
+## Deskripsi
+Studi kasus ini bertujuan untuk membangun aplikasi web personal dinamis, di mana pemilik web bisa mengelola konten melalui halaman admin.
+
+Aplikasi dibuat dengan:
+- *PHP* untuk backend
+- *MySQL* untuk database
+- *Tailwind CSS* untuk desain antarmuka
+
+## Fitur
+- Login & Logout Admin
+- Manajemen Artikel
+- Jadwal Kegiatan
+- Form Kontak (Buku Tamu)
+- Statistik Pengunjung
+- Dark Mode
+
+## Cara Menjalankan
+1. Clone repository:
+   ```bash
+   git clone https://github.com/ilahmei/personal-web.php.git
