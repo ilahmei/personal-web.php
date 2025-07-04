@@ -1,81 +1,91 @@
 # 🌐 Personal Web – Website Artikel Pribadi
 
-![Screenshot Website](https://raw.githubusercontent.com/ilahmei/personal-web.php/main/screenshot-home.jpg) <!-- Ganti link gambar sesuai upload kamu -->
+![Tampilan Homepage](images/screenshot-home.jpg) <!-- Ganti jika beda lokasi gambar -->
 
 ## 📖 Deskripsi Proyek
 
 Website ini merupakan projek website artikel pribadi yang dibuat menggunakan *PHP* dan *Tailwind CSS*. Website ini berfungsi sebagai media untuk menampilkan berbagai artikel, galeri gambar, informasi kegiatan, serta menyediakan form kontak bagi pengunjung.
 
-Selain tampilan publik, website juga memiliki *halaman admin* untuk mengelola konten artikel dan data lainnya. Fitur *dark mode, **statistik pengunjung, dan **form buku tamu* juga ditambahkan untuk memberikan kesan modern dan interaktif.
+Selain tampilan publik, website juga memiliki *halaman admin* untuk mengelola konten artikel dan data lainnya.  
+Fitur *dark mode, **statistik pengunjung, dan **form buku tamu* juga ditambahkan untuk memberikan kesan modern dan interaktif.
 
-📌 Cocok digunakan untuk:
+🎯 Cocok digunakan untuk:
 - Portfolio pribadi
 - Media berbagi tulisan
-- Sarana belajar membuat website dinamis
+- Sarana belajar pengembangan website dinamis
 
 ---
 
 ## ✨ Fitur-Fitur Website
 
 1. *Manajemen Artikel*  
-   Admin bisa menambahkan, mengedit, dan menghapus artikel.  
-   Artikel ditampilkan otomatis di halaman utama dari database.
+   Tambah, edit, dan hapus artikel oleh admin. Artikel tampil otomatis dari database.
 
 2. *Login Admin*  
-   Sistem login agar hanya admin yang dapat mengakses halaman pengelolaan.  
-   Mencegah orang asing mengubah isi website.
+   Sistem login agar hanya admin yang bisa mengakses panel pengelolaan.
 
 3. *Dark Mode*  
-   Pengunjung bisa mengaktifkan mode gelap untuk kenyamanan membaca.  
-   Mode disimpan menggunakan localStorage.
+   Tampilan gelap yang nyaman di mata, disimpan dengan localStorage.
 
 4. *Galeri Gambar*  
-   Halaman khusus untuk menampilkan foto dokumentasi, desain, atau portofolio visual.
+   Halaman untuk menampilkan dokumentasi atau portofolio visual.
 
 5. *Form Kontak & Buku Tamu*  
-   Pengunjung dapat mengirim pesan/feedback lewat form.  
-   Pesan tersimpan di database dan bisa dibaca admin.
+   Pengunjung dapat mengirim pesan yang tersimpan di database.
 
 6. *Statistik Pengunjung*  
-   Mencatat kunjungan berdasarkan IP address, user agent, dan tanggal.  
-   Berguna untuk melihat seberapa sering website dikunjungi.
+   Mencatat data kunjungan: IP, device, waktu kunjungan.
 
 7. *Jadwal Kegiatan / Timeline*  
-   Menampilkan list agenda atau event berdasarkan tanggal.
+   Menampilkan event atau agenda yang akan datang.
 
 8. *Dashboard Admin*  
-   Tampilan khusus untuk mengelola semua data (artikel, galeri, kontak, jadwal).  
-   User-friendly dan terorganisir.
+   Panel admin yang memudahkan pengelolaan data secara terpusat.
 
 ---
 
-## 🛠 Teknologi yang Digunakan
+## 📂 Struktur Folder & File
 
-| Teknologi       | Keterangan                                                                 |
-|-----------------|-----------------------------------------------------------------------------|
-| *HTML5*       | Struktur halaman web                                                       |
-| *Tailwind CSS*| Styling modern, responsif, dan mendukung dark mode                         |
-| *JavaScript*  | Interaktivitas seperti toggle dark mode dan validasi ringan                |
-| *PHP (Native)*| Backend untuk proses form, login, CRUD data                                |
-| *MySQL*       | Sistem basis data utama                                                    |
-| *phpMyAdmin*  | GUI untuk mengelola database                                               |
-| *XAMPP*       | Local server (Apache + MySQL)                                              |
-| *Git*         | Version control dan tracking perubahan                                     |
-| *GitHub*      | Menyimpan dan membagikan source code                                       |
-
----
-
-## 🏠 Halaman Home / Artikel
-
-- Menampilkan *daftar artikel terbaru* secara dinamis dari tabel tbl_artikel.
-- Tiap artikel berisi: *judul, **tanggal, **deskripsi singkat, dan tombol **“Baca Selengkapnya”*.
-- Ditampilkan menggunakan *PHP + Tailwind CSS*.
-- Mendukung tampilan *Dark Mode*.
-
----
-
-## 🚀 Cara Menjalankan Proyek
-
-1. Clone repo ini:
-   ```bash
-   git clone https://github.com/ilahmei/personal-web.php.git
+```bash
+📁 Personal_Ilah_D1A240008
+├── 📁 admin
+│   ├── about.php
+│   ├── add_about.php
+│   ├── add_artikel.php
+│   ├── add_gallery.php
+│   ├── beranda_admin.php
+│   ├── cek_akses.php
+│   ├── cek_login.php
+│   ├── data_artikel.php
+│   ├── data_gallery.php
+│   ├── data_kontak.php
+│   ├── delete_about.php
+│   ├── delete_artikel.php
+│   ├── delete_gallery.php
+│   ├── detail_artikel.php
+│   ├── edit_about.php
+│   ├── edit_artikel.php
+│   ├── edit_gallery.php
+│   ├── login.php
+│   ├── logout.php
+│   ├── proses_add_about.php
+│   ├── proses_add_artikel.php
+│   ├── proses_add_gallery.php
+│   ├── proses_edit_about.php
+│   ├── proses_edit_artikel.php
+│   ├── proses_edit_gallery.php
+│   ├── proses_komentar.php
+│   ├── proses_kontak.php
+│   ├── statistik.php
+│   └── kontak.php
+├── 📁 images
+│   └── (Berisi gambar galeri & artikel)
+├── about.php
+├── form_kegiatan.php
+├── gallery.php
+├── index.php
+├── jadwal_kegiatan.php
+├── koneksi.php
+├── kontak.php
+├── proses_kegiatan.php
+└── tailwind.config.js
