@@ -1,6 +1,4 @@
-# 🌐 Personal Web – Website Artikel Pribadi
-
-![Tampilan Homepage](images/screenshot-home.jpg) <!-- Ganti jika beda lokasi gambar -->
+🌐 Personal Web – Website Artikel Pribadi
 
 ## 📖 Deskripsi Proyek
 
@@ -66,7 +64,7 @@ Fitur *dark mode, **statistik pengunjung, dan **form buku tamu* juga ditambahkan
 │   ├── edit_about.php
 │   ├── edit_artikel.php
 │   ├── edit_gallery.php
-│   ├── login.php
+│   ├── login.php 
 │   ├── logout.php
 │   ├── proses_add_about.php
 │   ├── proses_add_artikel.php
@@ -89,3 +87,7 @@ Fitur *dark mode, **statistik pengunjung, dan **form buku tamu* juga ditambahkan
 ├── kontak.php
 ├── proses_kegiatan.php
 └── tailwind.config.js
+
+---
+
+# User Interface Halaman Publik
