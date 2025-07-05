@@ -87,9 +87,3 @@ Fitur dark mode, **statistik pengunjung, dan **form buku tamu juga ditambahkan u
 ├── kontak.php
 ├── proses_kegiatan.php
 └── tailwind.config.js
-
-### ✅ Form Kontak
-![Kontak](screenshot/kontak.png)
-
-### ✅ Login
-![Login](screenshot/login.png)
