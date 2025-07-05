@@ -88,6 +88,26 @@ Fitur *dark mode, **statistik pengunjung, dan **form buku tamu* juga ditambahkan
 ├── proses_kegiatan.php
 └── tailwind.config.js
 
----
+## 📸 Screenshot Tampilan
 
-# User Interface Halaman Publik
+### ✅ Halaman Home
+![Home](screenshot/home.png)
+![Home](screenshot/home2.png)
+
+### ✅ Artikel
+![Artikel](screenshot/artikel.png)
+
+### ✅ Galeri
+![Galeri](screenshot/gallery.png)
+
+### ✅ Jadwal Kegiatan
+![Kegiatan](screenshot/jadwal.png)
+
+### ✅ Halaman About
+![About](screenshot/about.png)
+
+### ✅ Form Kontak
+![Kontak](screenshot/kontak.png)
+
+### ✅ Login
+![Login] (screenshots/login.png)
